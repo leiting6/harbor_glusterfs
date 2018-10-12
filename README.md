@@ -1,0 +1,2 @@
+# harbor_glusterfs
+基于glusterfs实现harbor数据高可用

@@ -9,7 +9,7 @@
 
 3，挂载gluterfs到/data/register
 
-# df -h
+df -h
 
 192.168.2.110:gfs0       894G  720G  174G  81% /data/register
 
@@ -17,7 +17,7 @@
 
 默认harbor的所有数据都保存在/data/register/
 
-# mkdir -pv /data/register/{ca_download,config,data,database,harbor,job_logs,psc,redis,registry}
+mkdir -pv /data/register/{ca_download,config,data,database,harbor,job_logs,psc,redis,registry}
 
 5，修改harbor中的harbor.cfg和docker-compose.yml配置
 
